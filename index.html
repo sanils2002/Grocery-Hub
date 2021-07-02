@@ -499,7 +499,7 @@ function showSlides() {
 
     <h1 class="heading"> <span>contact</span> us... </h1>
 
-    <form action="">
+    <form action="process.php" method="post">
 
         <div class="inputBox">
             <input type="text" placeholder="Name" required>
@@ -512,6 +512,21 @@ function showSlides() {
         </div>
 
         <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+        
+        <?php
+        $Msg = "";
+        if(isset($_GET['error']))
+        {
+            $Msg = " Please Fill all the fields ";
+            echo '<div id="alert1">'.$Msg.'</div>';
+        }
+
+        if(isset($_GET['success']))
+        {
+            $Msg = " Your message has been sent ";
+            echo '<div id="alert2">'.$Msg.'</div>';
+        }
+    ?>
 
         <input type="submit" value="send message" class="btn">
 
@@ -527,9 +542,25 @@ function showSlides() {
 
     <h3>subscribe us for latest updates!</h3>
 
-    <form action="process.php">
+    <form action="process.php" method="post">
         <input class="box" type="email" placeholder="Enter your Email" >
-        <input type="submit" value="subscribe" class="btn1">
+        <input type="submit" value="subscribe" class="btn1" name="sub2">
+        
+        <?php
+        $Msg2 = "";
+        if(isset($_GET['error2']))
+        {
+            $Msg2 = " Please enter your mail id ";
+            echo '<div id="alert1">'.$Msg2.'</div>';
+        }
+
+        if(isset($_GET['success2']))
+        {
+            $Msg2 = " You have successfully subscribed !!! ";
+            echo '<div id="alert2">'.$Msg2.'</div>';
+        }
+    ?>
+
     </form>
 
 </section>
