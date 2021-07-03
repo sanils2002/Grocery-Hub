@@ -206,7 +206,7 @@ function showSlides() {
             <a href="#" class="btn">shop now</a>
         </div>
         <div class="box">
-            <h3>fruite</h3>
+            <h3>fruits</h3>
             <p>upto 12% off</p>
             <img src="images/category-4.png" alt="">
             <a href="#" class="btn">shop now</a>
