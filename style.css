@@ -101,3 +101,10 @@
     background: rgb(255, 41, 41);
     color: white;
   }
+
+.delo {
+  width: 46px;
+  height: 42px;
+  position: relative;
+  top:10px;
+}
