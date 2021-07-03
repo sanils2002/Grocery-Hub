@@ -141,8 +141,6 @@ section{
     width:4rem;
     line-height: 4rem;
     text-align: center;
-    position: relative;
-    right: -410px;
     font-size: 2.5rem;
     color:var(--green);
 }
