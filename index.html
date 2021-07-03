@@ -144,8 +144,8 @@ function showSlides() {
 
 
     <div class="content">
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fresh and organic</span>
-        <h3>&nbsp;&nbsp;&nbsp;&nbsp;your daily need products</h3>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fresh and organic..</span>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;your daily need products!</h3>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn">get started</a>
     </div>
 
