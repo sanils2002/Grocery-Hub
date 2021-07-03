@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery Hub</title>
 
+    <!-- add icon link -->
+    <link rel = "icon" href = "images/Logo.png" type = "image/x-icon">
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
@@ -144,8 +147,8 @@ function showSlides() {
 
 
     <div class="content">
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fresh and organic..</span>
-        <h3>&nbsp;&nbsp;&nbsp;&nbsp;your daily need products!</h3>
+      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fresh and organic..</span>
+      <h3>&nbsp;&nbsp;&nbsp;&nbsp;your daily need products!</h3>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn">get started</a>
     </div>
 
