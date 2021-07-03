@@ -146,7 +146,6 @@ section{
 }
 
 .header-1 .share a{
-    padding:0;
     height:4rem;
     width:4rem;
     line-height: 4rem;
@@ -156,6 +155,7 @@ section{
     background-color: var(--green);
     color:var(--white);
     border-radius: .3em;
+    cursor: pointer;
 }
 
 .header-1 .share a:hover{
