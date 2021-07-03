@@ -108,3 +108,15 @@
   position: relative;
   top:10px;
 }
+
+.footer .credit{
+  padding:2.5rem 1rem;
+  border-top: .5rem solid rgba(0, 0, 0, 0.76);
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.footer .credit span{
+  color:var(--green);
+}
