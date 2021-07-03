@@ -58,64 +58,64 @@
 <section class="home" id="home">
 
     <div class="slideshow-container">
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/1.jfif" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/2.jfif" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/home-img.png" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/3.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
-    
+
+
     <div class="mySlides fade">
-    
+
       <img src="images/4.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
-    
+
+
     <div class="mySlides fade">
-    
+
       <img src="images/5.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/6.jpeg" alt="" width="500" height="400" class="rad" class="rad">
-    
+
     </div>
-    
-    
+
+
     </div>
-    
+
     <br>
-    
+
     <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
 
 <script>
@@ -128,14 +128,14 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
@@ -464,8 +464,7 @@ function showSlides() {
     <div class="content">
 
         <h3 class="title">deal of the day</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam possimus voluptates commodi laudantium! Doloribus sint voluptatibus quaerat sequi suscipit nulla?</p>
-
+        <p>Get Exciting Discounts and Cashbacks!</p>
         <div class="count-down">
             <div class="box">
                 <h3 id="day">00</h3>
@@ -574,7 +573,7 @@ function showSlides() {
 
         <div class="box">
             <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>grocery hub</a>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam culpa sit enim nesciunt rerum laborum illum quam error ut alias!</p>
+            <p>Your presence is our confidence!</p>
             <div class="share">
                 <a href="#" class="btn fab fa-facebook-f"></a>
                 <a href="#" class="btn fab fa-twitter"></a>
@@ -582,7 +581,7 @@ function showSlides() {
                 <a href="#" class="btn fab fa-linkedin"></a>
             </div>
         </div>
-        
+
         <div class="box">
             <h3>our location</h3>
             <div class="links">
@@ -616,7 +615,7 @@ function showSlides() {
 
     </div>
 
-    <h1 class="credit"> designed by <span> team grocery hub </span> | all rights reserved! </h1>
+    <h1 class="credit"> designed by <span> team grocery hub </span> <a href="#" class="logo"><img src="images/Logo.png" alt="" class="delo"></a> | all rights reserved! </h1>
 
 </section>
 
@@ -642,6 +641,6 @@ function showSlides() {
 
 <!-- custom js file link  -->
 <script src="script.js"></script>
-    
+
 </body>
 </html>
