@@ -706,3 +706,13 @@ section{
   }
 
 }
+
+#alert1{
+  color: red;
+  font-size: large;
+}
+
+#alert2{
+  color: green;
+  font-size: large;
+}
