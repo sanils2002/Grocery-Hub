@@ -61,64 +61,64 @@
 <section class="home" id="home">
 
     <div class="slideshow-container">
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/1.jfif" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/2.jfif" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/home-img.png" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/3.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
-    
+
+
     <div class="mySlides fade">
-    
+
       <img src="images/4.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
-    
+
+
     <div class="mySlides fade">
-    
+
       <img src="images/5.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
+
     <div class="mySlides fade">
-    
+
       <img src="images/6.jpeg" alt="" width="500" height="400" class="rad">
-    
+
     </div>
-    
-    
+
+
     </div>
-    
+
     <br>
-    
+
     <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
     </div>
 
 <script>
@@ -131,14 +131,14 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
@@ -505,16 +505,16 @@ function showSlides() {
     <form action="process.php" method="post">
 
         <div class="inputBox">
-            <input type="text" name="name" placeholder="name">
-            <input type="email" name="email" placeholder="email">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
         </div>
 
         <div class="inputBox">
-            <input type="number" name="number" placeholder="number">
-            <input type="text" name="subject" placeholder="subject">
+            <input type="number" name="number" placeholder="Number">
+            <input type="text" name="subject" placeholder="Subject">
         </div>
 
-        <textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+        <textarea placeholder="Message" name="message" id="" cols="30" rows="10"></textarea>
 
         <?php
         $Msg = "";
@@ -584,7 +584,7 @@ function showSlides() {
                 <a href="#" class="btn fab fa-linkedin"></a>
             </div>
         </div>
-        
+
         <div class="box">
             <h3>our location</h3>
             <div class="links">
@@ -645,6 +645,6 @@ function showSlides() {
 
 <!-- custom js file link  -->
 <script src="script.js"></script>
-    
+
 </body>
 </html>
