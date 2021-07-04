@@ -402,7 +402,8 @@ section{
 }
 
 .deal{
-  background:url(../images/deal-bg.jpg) no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(71, 71, 71, 0.15)),
+      url(images/deal-bg.jpg) ;
   background-position: center;
   background-size: cover;
   padding-top: 7rem;
@@ -486,7 +487,8 @@ section{
 }
 
 .newsletter{
-  background:url(../images/newsletter-bg.jpg) no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(71, 71, 71, 0.15)),
+      url(images/newsletter-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   text-align: center;
