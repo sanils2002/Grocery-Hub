@@ -61,64 +61,64 @@
 <section class="home" id="home">
 
     <div class="slideshow-container">
-
+    
     <div class="mySlides fade">
-
+    
       <img src="images/1.jfif" alt="" width="500" height="400" class="rad">
-
+    
     </div>
-
+    
     <div class="mySlides fade">
-
+    
       <img src="images/2.jfif" alt="" width="500" height="400" class="rad">
-
+    
     </div>
-
+    
     <div class="mySlides fade">
-
+    
       <img src="images/home-img.png" alt="" width="500" height="400" class="rad">
-
+    
     </div>
-
+    
     <div class="mySlides fade">
-
+    
       <img src="images/3.jpeg" alt="" width="500" height="400" class="rad">
-
+    
     </div>
-
-
+    
+    
     <div class="mySlides fade">
-
+    
       <img src="images/4.jpeg" alt="" width="500" height="400" class="rad">
-
+    
     </div>
-
-
+    
+    
     <div class="mySlides fade">
-
+    
       <img src="images/5.jpeg" alt="" width="500" height="400" class="rad">
-
+    
     </div>
-
+    
     <div class="mySlides fade">
-
-      <img src="images/6.jpeg" alt="" width="500" height="400" class="rad" class="rad">
-
+    
+      <img src="images/6.jpeg" alt="" width="500" height="400" class="rad">
+    
     </div>
-
-
+    
+    
     </div>
-
+    
     <br>
-
+    
     <div style="text-align:center">
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
     </div>
 
 <script>
@@ -131,14 +131,14 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none";  
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
+  if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
@@ -147,8 +147,8 @@ function showSlides() {
 
 
     <div class="content">
-      <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fresh and organic..</span>
-      <h3>&nbsp;&nbsp;&nbsp;&nbsp;your daily need products!</h3>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fresh and organic..</span>
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;your daily need products!</h3>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn">get started</a>
     </div>
 
@@ -194,25 +194,25 @@ function showSlides() {
             <h3>vegetables</h3>
             <p>upto 50% off</p>
             <img src="images/category-1.png" alt="">
-            <a href="#" class="btn">shop now</a>
+            <a href="vegetable.xml" class="btn" target="_blank">shop now</a>
         </div>
         <div class="box">
             <h3>juice</h3>
             <p>upto 44% off</p>
             <img src="images/category-2.png" alt="">
-            <a href="#" class="btn">shop now</a>
+            <a href="juice.xml" class="btn" target="_blank">shop now</a>
         </div>
         <div class="box">
             <h3>meat</h3>
             <p>upto 35% off</p>
             <img src="images/category-3.png" alt="">
-            <a href="#" class="btn">shop now</a>
+            <a href="meat.xml" class="btn" target="_blank">shop now</a>
         </div>
         <div class="box">
             <h3>fruits</h3>
             <p>upto 12% off</p>
             <img src="images/category-4.png" alt="">
-            <a href="#" class="btn">shop now</a>
+            <a href="fruit.xml" class="btn" target="_blank">shop now</a>
         </div>
 
     </div>
@@ -545,12 +545,11 @@ function showSlides() {
 
     <h3>subscribe us for latest updates!</h3>
 
-    <form action="process.php" method="post">
-        <input name="sub_email" class="box" type="email" placeholder="Enter your Email" >
+    <form action="process2.php" method="post">
+        <input class="box" type="email" placeholder="Enter your Email" name="sub_email" >
         <input type="submit" value="subscribe" class="btn1" name="sub2">
     </form>
-
-    <?php
+        <?php
         $Msg2 = "";
         if(isset($_GET['error2']))
         {
@@ -563,7 +562,7 @@ function showSlides() {
             $Msg2 = " You have successfully subscribed !!! ";
             echo '<div id="alert2">'.$Msg2.'</div>';
         }
-    ?>
+        ?>
 
 </section>
 
@@ -585,7 +584,7 @@ function showSlides() {
                 <a href="#" class="btn fab fa-linkedin"></a>
             </div>
         </div>
-
+        
         <div class="box">
             <h3>our location</h3>
             <div class="links">
@@ -646,6 +645,6 @@ function showSlides() {
 
 <!-- custom js file link  -->
 <script src="script.js"></script>
-
+    
 </body>
 </html>
